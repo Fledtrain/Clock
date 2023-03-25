@@ -17,8 +17,8 @@ body {
 
 /* Clock Styling*/
 .clock {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   border: 2px solid black;
@@ -32,7 +32,7 @@ body {
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .clock .number1 {
@@ -90,8 +90,8 @@ body {
   position: absolute;
   background-color: black;
   z-index: 11;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -100,7 +100,7 @@ body {
 
 .clock .hand.second {
   width: 3px;
-  height: 45%;
+  height: 44%;
   background-color: red;
 }
 .clock .hand.minute {
