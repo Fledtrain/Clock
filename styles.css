@@ -113,3 +113,46 @@ body {
   height: 35%;
   background-color: black;
 }
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .clock {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .clock .number {
+    font-size: 25px;
+  }
+}
+@media (max-width: 420px) {
+  .clock {
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+  }
+  .clock .number {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 345px) {
+  .clock {
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+  }
+  .clock .number {
+    font-size: 20px;
+  }
+}
+@media (max-width: 300px) {
+  .clock {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+  .clock .number {
+    font-size: 20px;
+  }
+}
