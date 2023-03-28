@@ -100,8 +100,8 @@ body {
 }
 
 .clock .hand.second {
-  width:2.5px;
-  height: 44%;
+  width:3.5px;
+  height: 43%;
   background-color: rgb(202, 37, 37);
 }
 .clock .hand.minute {
